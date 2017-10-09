@@ -1,6 +1,7 @@
 /* General Styles */
 body {
   background-color: rgb(241, 241, 241);
+  font-family: 'Lato', Arial, sans-serif;
   font-size: 16px;
   font-weight: 300;
   line-height: 1.2em;
@@ -36,6 +37,7 @@ h2 {
 }
 
 h3 {
+  font-family: 'Quicksand', sans-serif;
   font-size: 1.4em;
   font-weight: 700;
   margin: 0 0 0.3em 0;
@@ -59,14 +61,20 @@ h4 {
   text-decoration: none;
 }
 
+nav li a:hover {
+  color: #FB000D;
+}
+
 .jump {
   color: #565656;
+  font-family: 'EntypoRegular';
   font-size: 70px;
   line-height: 80px;
   position: absolute;
   text-decoration: none;
   top: 0;
 }
+
 .jump.up {
   left: 15px;
 }
@@ -74,6 +82,9 @@ h4 {
   right: 15px;
 }
 
+.jump:hover {
+  color: #BC2F36;
+}
 
 /* Header */
 #header {
