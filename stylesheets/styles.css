@@ -190,12 +190,22 @@ nav li a:hover {
   margin-bottom: 1em;
   padding-left: 5px;
 }
+#facts ul li:before {
+  color: #FFA700;
+  content: '7';
+  font-family: 'EntypoRegular';
+  font-size: 30px;
+  padding-right: 10px;
+}
+#facts ul li:hover:before {
+  color: #FF6F00;
+}
 
 
 
 /* Footer */
 #footer {
-  background-color: #00665F;
+  background-color: #8063ac;
 }
 
 #footer .nav {
