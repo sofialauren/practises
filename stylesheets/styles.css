@@ -156,6 +156,7 @@ nav li a:hover {
 /* Organizations */
 #organizations {
   clear: both;
+  height: 500px;
 }
 
 #organizations ul {
@@ -176,6 +177,7 @@ nav li a:hover {
   font-size: 40px;
   padding-right: 10px;
 }
+
 #organizations img {
   position: absolute;
   right: 20px;
